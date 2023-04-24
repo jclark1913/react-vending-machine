@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './VendingMachine.css'
 
+
+/** Renders snack item list on page
+ *
+ *  App -> VendingMachine
+*/
 function VendingMachine() {
   return (
     <div className="VendingMachine">
